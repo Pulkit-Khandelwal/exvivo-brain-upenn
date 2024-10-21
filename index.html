@@ -85,8 +85,6 @@
   </div>
 </nav>
 
-  
-
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
@@ -170,7 +168,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/Pulkit-Khandelwal/upenn-picsl-brain-ex-vivo"
+                <a href="https://github.com/Pulkit-Khandelwal/purple-mri"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -205,18 +203,7 @@
       </h2>
     </div>
   </div>
-</section>
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <div class="column is-full-width">
-          <h3 class="title is-3">COMING SOON!! a stand-alone pip package</h3>
-          <h2 class="title is-3">purple-mri: Penn Utilities for Registration and ParcelLation of Ex vivo MRI</h2>
-        <div class="content has-text-justified">
-        </div>
-      </div>
-    </div>
-</section>   
+</section> 
   
 <section class="section">
   <div class="container is-max-desktop">
@@ -267,15 +254,12 @@
     <div class="column is-four-fifths">
       <h2 class="title is-3">Teaser video</h2>
       <div class="publication-video">
-        <iframe src="https://www.youtube.com/embed/e1XtdM61gkY/?rel=0&amp"
+        <iframe src="https://www.youtube.com/embed/0BOeUtlWlYw/?rel=0&amp"
                 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div>
   </div>
 </section>
-
-
-
 
   <section class="section">
     <div class="container is-max-desktop">
@@ -295,41 +279,67 @@ thereby link morphometry measures with pathology measurements derived from histo
 
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="./static/Picture1.png" alt="exvivo_freesurfer_image"/>
-      <figcaption>Ex vivo MRI and parcellations. Sagittal, axial and coronal viewing planes
-of ex vivo MRI at 0.3mm3
-resolution for two subjects (A and B) with corresponding
-DKT volumetric segmentations and surface-based parcellations on pial and inflated
-surfaces for the medial and lateral views in subject space resolution. Our method is
-able to correctly delineate the brain even in regions where the MR signal contrast is
-low in the anterior and the posterior brain MRI due to artifacts in acquisition protocol.
-Bottom row: the segmentations and parcellations on the corresponding 3T in vivo MRI
-of subject B which shows that the developed pipeline correctly map the labels to similar
-brain locations in ex vivo MRI.</figcaption>
+      <img src="./static/1.jpg" alt="exvivo_freesurfer_image"/>
+      <figcaption>
+        Schematic of the developed pipeline based on deep learning volumetric segmentations and surface-based modeling for parcellations of ex vivo whole hemisphere 0.3 mm3 7T MRI.    
+      </figcaption>
             <h2 class="subtitle has-text-centered">
         <span class="dnerf"></span>
       </h2>
     </div>
   </div>
 
-<div class="container is-max-desktop">
+  <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="./static/Picture4.png" alt="exvivo_freesurfer_results_image"/>
-            <figcaption>Template-space vertex-wise morphometry-pathology correlations.
-Vertex-wise group analysis was performed to fit a generalized linear model (GLM).
-Shown are the statistical map (t-statistics) of the correlation between cortical thickness (mm) and with global ratings of amyloid-β, Braak staging, CERAD, and semiquantitative ratings of the medial temporal lobe (MTL) tau pathology and neuronal
-loss, the with age, sex and postmortem interval (PMI) as covariates across all 82 subjects. The clusters outlined in white indicate regions significant correlations (p<0.05)
-were observed after FWER correction for multiple comparisons.</figcaption>
+      <img src="./static/2.jpg" alt="exvivo_freesurfer_image"/>
+      <figcaption>
+        Ex vivo MRI segmentations and parcellations. Axial, coronal and sagittal
+viewing planes of ex vivo MRI at 0.3 mm3
+resolution for three subjects (A, B and
+C) with corresponding DKT volumetric segmentations and surface-based parcellations
+on pial and inflated surfaces for the medial and lateral views in native subject space
+resolution. Our method is able to correctly delineate the brain even in regions where the
+MR signal contrast is low in the anterior and the posterior brain MRI due to artifacts
+in acquisition protocol.
+      </figcaption>
             <h2 class="subtitle has-text-centered">
         <span class="dnerf"></span>
       </h2>
     </div>
   </div>
-</section> 
 
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/3.jpg" alt="exvivo_freesurfer_image"/>
+      <figcaption>
+        Spearman’s correlation plots between mean ROI thickness (mm)
+and neuropathological ratings in native subject-space. We observe significant
+negative correlation with global ratings of amyloid-β, Braak staging, CERAD, and the
+semi-quantitative ratings of the medial temporal lobe (MTL) neuronal loss and tau
+pathology. All the analysis were covaried for age, sex and postmortem interval (PMI)
+for the entire cohort of 82 subjects.
+      </figcaption>
+            <h2 class="subtitle has-text-centered">
+        <span class="dnerf"></span>
+      </h2>
+    </div>
+  </div>
 
-
-
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/4.jpg" alt="exvivo_freesurfer_image"/>
+      <figcaption>
+        Template-space vertex-wise morphometry-pathology correlations.
+Vertex-wise group analysis was performed to fit a generalized linear model (GLM).
+Shown are the statistical map (t-statistics) of the correlation between cortical thickness (mm) and with global ratings of amyloid-β, Braak staging, CERAD, and semiquantitative ratings of the medial temporal lobe (MTL) neuronal loss and tau pathology, with age, sex and postmortem interval (PMI) as covariates across all 82 subjects.
+The clusters outlined in black indicate regions significant correlations (p<0.05) were
+observed after FWER correction for multiple comparisons.
+      </figcaption>
+            <h2 class="subtitle has-text-centered">
+        <span class="dnerf"></span>
+      </h2>
+    </div>
+  </div>    
   
 <section class="section">
     <div class="container is-max-desktop">
